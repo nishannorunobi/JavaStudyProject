@@ -1,0 +1,7 @@
+{
+"book" : [
+	{"isbn" : "245-457-986-453"},
+	{"name" : "Effective Java"},
+	{"publish-date" : "October 2014"}
+]
+}
