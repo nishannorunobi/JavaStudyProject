@@ -1,0 +1,8 @@
+{
+"book" : [
+	{"isbn" : "245-457-986-453"},
+	{"name" : "Effective Java"},
+	{"authors" : ["James Gosling","Herbert Schildt"]},
+	{"publish-date" : "October 2014"}
+]
+}
