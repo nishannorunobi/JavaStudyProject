@@ -3,13 +3,13 @@ package com.nishan.java.behavioral.strategy.pattern;
 public class ProtocolFactory {
 
 	public static ProtocolStrategy create(String url){
-		ProtocolStrategy ps;
+		ProtocolStrategy ps = null;
 		if(url.startsWith("ftp")){
-			return new FtpProtocol();
+			ps = new FtpProtocol();
 		}else if(url.startsWith("http")){
-			return new HTTPProtocol();
+			ps = new HTTPProtocol();
 		}
-		return null;
+		return ps;
 	}
 
 }

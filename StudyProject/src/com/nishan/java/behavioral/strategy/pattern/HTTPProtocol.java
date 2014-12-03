@@ -1,7 +1,6 @@
 package com.nishan.java.behavioral.strategy.pattern;
 
 import java.io.File;
-import java.net.URL;
 
 public class HTTPProtocol implements ProtocolStrategy{
 
