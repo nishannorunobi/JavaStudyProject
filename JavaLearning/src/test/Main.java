@@ -12,8 +12,8 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException, Exception, SOAPException {
-		Integer i = new Integer(5);
-		Integer i2= new Integer(5);
+		Integer i = 5;
+		Integer i2= 5;
 		int x = 5;
 		int x2= 5;
 		if(i == x)

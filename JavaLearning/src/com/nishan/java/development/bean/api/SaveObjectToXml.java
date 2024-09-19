@@ -9,10 +9,10 @@ public class SaveObjectToXml {
 
 	public static void main(String[] args) throws Exception {
 		Item bean = new Item();
-		bean.setId(new Long(1));
+		bean.setId(Long.valueOf(1));
 		bean.setItemName("Scarf");
 		bean.setItemColour("Red");
-		bean.setItemQuantities(new Integer(100));
+		bean.setItemQuantities(100);
 
 		XMLEncoder encoder = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("Bean.xml")));
 
