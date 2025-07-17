@@ -9,6 +9,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
+		String password = "AKIAIOSFODNN7EXAMPLE";
 		ResourceBundle rb = ResourceBundle.getBundle("MyResources", Locale.getDefault());
 	    System.out.println(rb.getString("name"));
 	}
