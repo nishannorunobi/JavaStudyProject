@@ -6,9 +6,9 @@ package jep513;
  */
 public class MainJep513 {
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println("═══════════════════════════════════════");
-        System.out.println("  JEP 513 — Flexible Constructor Bodies");
+        System.out.println("✅✅Running "+this.getClass().getName());
         System.out.println("═══════════════════════════════════════");
 
         // ── Test 1: Valid input — name normalized before super() ──
@@ -42,6 +42,10 @@ public class MainJep513 {
         System.out.println("\n───────────────────────────────────────");
         System.out.println("  ✅ Statements before super() / this() work!");
         System.out.println("  ❌ Old way: super() forced to be first line");
+        System.out.println("═══════════════════════════════════════");
+
+        System.out.println("═══════════════════════════════════════");
+        System.out.println("✅✅Done "+this.getClass().getName());
         System.out.println("═══════════════════════════════════════");
     }
 }

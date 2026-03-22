@@ -3,7 +3,7 @@
 set -e
 
 # Run from dockerfile, not using docker-compose.yml
-DOCKERFILE="src/main/java/jep511/Dockerfile"
+DOCKERFILE="src/main/java/jep513/Dockerfile"
 IMAGE_NAME="myjavatest"
 
 echo ""
@@ -26,7 +26,7 @@ echo "🚀 Running $IMAGE_NAME ..."
 echo "──────────────────────────────────────────"
 docker run --rm $IMAGE_NAME
 echo ""
-echo "✅ Done."
+echo "✅ App running done."
 
 echo ""
 echo ""
@@ -48,7 +48,7 @@ echo ""
 echo ""
 echo "✅ Removing Containers."
 for RUN in 1 2; do
-    COUNT=$(docker ps| wc -l)
+    COUNT=$(docker ps -q| wc -l)
 
     if [ "$COUNT" -eq 0 ]; then
         echo "✅No running container left."
