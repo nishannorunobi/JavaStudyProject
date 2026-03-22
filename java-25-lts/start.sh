@@ -3,7 +3,7 @@
 set -e
 
 # ── Config — change these to switch JEP ──
-DOCKERFILE="src/main/java/jep513/Dockerfile"
+DOCKERFILE="src/main/java/jep511/Dockerfile"
 IMAGE_NAME="myjavatest"
 
 echo ""
