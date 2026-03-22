@@ -1,0 +1,19 @@
+services:
+
+  jep511:
+    build:
+      context: .
+      dockerfile: src/main/java/jep511/Dockerfile
+    image: java25lts-jep511
+
+  jep512:
+    build:
+      context: .
+      dockerfile: src/main/java/jep512/Dockerfile
+    image: java25lts-jep512
+
+  jep513:
+    build:
+      context: .
+      dockerfile: src/main/java/jep513/Dockerfile
+    image: java25lts-jep513
