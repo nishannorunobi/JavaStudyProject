@@ -3,7 +3,7 @@
 set -e
 
 # Run from dockerfile, not using docker-compose.yml
-DOCKERFILE="src/main/java/jep513/Dockerfile"
+DOCKERFILE="src/main/java/jep506/Dockerfile"
 IMAGE_NAME="myjavatest"
 
 echo ""
